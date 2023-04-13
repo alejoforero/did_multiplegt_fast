@@ -7,23 +7,23 @@ ssc install matsave
 
 Install ftools from github, not SSC
 
-'cap ado uninstall ftools'
+`cap ado uninstall ftools
 
-'net install ftools, from("https://raw.githubusercontent.com/sergiocorreia/ftools/master/src/")'
+net install ftools, from("https://raw.githubusercontent.com/sergiocorreia/ftools/master/src/")`
 
 Check his website for more details on installation.
 http://scorreia.com/software/reghdfe/install.html
 
 Install parallel from github; don't install from SSC:
-'cap ado uninstall parallel'
+`cap ado uninstall parallel
 
-'net install parallel, from(https://raw.github.com/gvegayon/parallel/stable/) replace'
+net install parallel, from(https://raw.github.com/gvegayon/parallel/stable/) replace
 
-'mata mata mlib index'
+mata mata mlib index`
 
 # Installation
 
-'net install did_multiplegt_fast, from("https://raw.githubusercontent.com/alejoforero89/did_multiplegt_fast/master/")
+`net install did_multiplegt_fast, from("https://raw.githubusercontent.com/alejoforero89/did_multiplegt_fast/master/"`
 
 # Validation
 You can compare the results of the fast versus the original command with the dofile: 'did_multiplegt_fast_validation.do'. Once the seed is set, the results are identical.
