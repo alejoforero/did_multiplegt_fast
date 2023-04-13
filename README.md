@@ -5,9 +5,7 @@ Parallel version of did_multiplegt. Parallelizes the bootstrap calculation, ever
 # Requirements
 ssc install matsave
 
-First, install the latest ftools from Sergio Correia:
-
-Install ftools (remove program if it existed previously)
+Install ftools from github, not SSC
 
 cap ado uninstall ftools
 
@@ -16,7 +14,7 @@ net install ftools, from("https://raw.githubusercontent.com/sergiocorreia/ftools
 Check his website for more details on installation.
 http://scorreia.com/software/reghdfe/install.html
 
-Install parallel; don't install from SSC:
+Install parallel from github; don't install from SSC:
 cap ado uninstall parallel
 
 net install parallel, from(https://raw.github.com/gvegayon/parallel/stable/) replace
