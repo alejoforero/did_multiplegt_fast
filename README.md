@@ -1,6 +1,11 @@
 # did_multiplegt_fast
 Parallel version of did_multiplegt. Parallelizes the bootstrap calculation, everything else is the same and credit goes to the creators of the original command.
 
+Using Stata MP4 and a 16 core CPU I achieved estimation time reduction of up to 90%.
+
+Set maxprocessors(#) to a number close to the cores of your computer such that it minimizes mod(breps,#). For example if you set breps to 50 and have a 16 core processor, the most efficient parameter is either 13 or 17. Your mileage may vary.
+Also note that this will open # Stata sessions each with a copy of your data. Make sure you have enough RAM memory for that, and if not, minimize the estimation dataset with only the needed variables.
+
 
 # Requirements
 `ssc install matsave`
