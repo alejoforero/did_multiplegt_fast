@@ -2,7 +2,9 @@
 Parallel version of did_multiplegt. Parallelizes the bootstrap calculation, everything else is the same and credit goes the creators of original command.
 
 
-# Installation
+# Requirements
+ssc install matsave
+
 First, install the latest ftools from Sergio Correia:
 
 Install ftools (remove program if it existed previously)
