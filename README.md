@@ -11,7 +11,8 @@ cap ado uninstall ftools
 
 net install ftools, from("https://raw.githubusercontent.com/sergiocorreia/ftools/master/src/")
 
-* Install parallel; don't install from SSC
+Install parallel; don't install from SSC
+
 cap ado uninstall parallel
 net install parallel, from(https://raw.github.com/gvegayon/parallel/stable/) replace
 mata mata mlib index
