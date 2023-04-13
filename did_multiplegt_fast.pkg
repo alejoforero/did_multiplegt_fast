@@ -1,0 +1,11 @@
+beta
+
+d did_multiplegt_fast. Parallel version of did_multiplegt_fast. Executes the bootstrap repetitions in parallel.
+d
+d Requires: Stata version 12
+d Distribution-Date: 20230412
+d
+
+f did_multiplegt_fast.ado
+f did_multiplegt_estim2.ado
+f did_multiplegt_parallel.ado
