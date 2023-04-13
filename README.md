@@ -26,7 +26,7 @@ mata mata mlib index
 
 # Installation
 
-`net install did_multiplegt_fast, from("https://raw.github.com/alejoforero89/did_multiplegt_fast/master/")`
+`net install did_multiplegt_fast, from("https://raw.github.com/alejoforero/did_multiplegt_fast/master/")`
 
 # Validation
 You can compare the results of the fast versus the original command with the dofile: 'did_multiplegt_fast_validation.do'. Once the seed is set, the results are identical.
