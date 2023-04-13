@@ -7,7 +7,7 @@ ssc install matsave
 
 Install ftools from github, not SSC
 
-`cap ado uninstall ftools
+>cap ado uninstall ftools
 
 net install ftools, from("https://raw.githubusercontent.com/sergiocorreia/ftools/master/src/")`
 
