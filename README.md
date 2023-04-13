@@ -24,6 +24,7 @@ You can compare the results of the fast versus the original command with the dof
 
 
 
-References: 
+# References: 
+
 Clément de Chaisemartin & Xavier D'Haultfoeuille & Yannick Guyonvarch, 2019. "DID_MULTIPLEGT: Stata module to estimate sharp Difference-in-Difference designs with multiple groups and periods," Statistical Software Components S458643, Boston College Department of Economics, revised 08 Feb 2023
 https://ideas.repec.org/c/boc/bocode/s458643.html
