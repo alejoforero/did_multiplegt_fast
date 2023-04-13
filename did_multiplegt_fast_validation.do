@@ -1,9 +1,3 @@
-ssc install parallel
-cap ado uninstall ftools
-net install ftools, from("https://raw.githubusercontent.com/sergiocorreia/ftools/master/src/")
-
-net install did_multiplegt_fast, from("https://raw.githubusercontent.com/alejoforero89/did_multiplegt_fast/master/")
-
 // Generate a complete panel of 300 units observed in 15 periods
 clear all
 timer clear
@@ -43,11 +37,6 @@ did_multiplegt Y i t D, 		robust_dynamic dynamic(`dynamic') placebo(`placebo') b
 graph export "original.png", replace
 matrix variancemgt_1=e(didmgt_variances)
 matrix variance_1=e(variances)
-
-loc dynamic 5
-loc placebo 5
-loc breps 10
-loc seed 1234
 
 did_multiplegt_fast Y i t D, 	robust_dynamic dynamic(`dynamic') placebo(`placebo') breps(`breps') seed(`seed') maxprocessors(16)
 graph export "fast.png", replace
