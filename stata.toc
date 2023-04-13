@@ -1,0 +1,10 @@
+beta
+d Alejandro Forero, aforero@worldbank.org
+d 
+p did_multiplegt_fast - Parallel version of did_multiplegt
+
+* l word-to-show path-or-url [description]
+* t: Directories within site:
+* t path [description]
+* Packages:
+* p pkgname [description]
