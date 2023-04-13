@@ -16,6 +16,7 @@ http://scorreia.com/software/reghdfe/install.html
 
 
 Then install directly in Stata
+
 net install did_multiplegt_fast, from("https://raw.githubusercontent.com/alejoforero89/did_multiplegt_fast/master/")
 
 # Validation
