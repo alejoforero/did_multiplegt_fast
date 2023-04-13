@@ -3,36 +3,33 @@ Parallel version of did_multiplegt. Parallelizes the bootstrap calculation, ever
 
 
 # Requirements
-ssc install matsave
+`ssc install matsave`
 
-First, install the latest ftools from Sergio Correia:
+Install `ftools` and from github, not SSC
 
-Install ftools (remove program if it existed previously)
-
+```
 cap ado uninstall ftools
 
 net install ftools, from("https://raw.githubusercontent.com/sergiocorreia/ftools/master/src/")
+```
+Check his website for more details on installation.
+http://scorreia.com/software/reghdfe/install.html
 
-Install parallel; don't install from SSC:
-
-
+Install `parallel` from github; don't install from SSC:
+```
 cap ado uninstall parallel
 
 net install parallel, from(https://raw.github.com/gvegayon/parallel/stable/) replace
 
 mata mata mlib index
+```
 
+# Installation
 
-Check his website for more details on installation.
-http://scorreia.com/software/reghdfe/install.html
-
-
-Then install directly in Stata
-
-net install did_multiplegt_fast, from("https://raw.githubusercontent.com/alejoforero89/did_multiplegt_fast/master/")
+`net install did_multiplegt_fast, from("https://raw.github.com/alejoforero/did_multiplegt_fast/master/")`
 
 # Validation
-You can compare the results of the fast versus the original command with the dofile: did_multiplegt_fast_validation.do. Once the seed is set, the results are identical.
+You can compare the results of the fast versus the original command with the dofile: 'did_multiplegt_fast_validation.do'. Once the seed is set, the results are identical.
 
 
 
