@@ -1,5 +1,5 @@
 # did_multiplegt_fast
-Parallel version of did_multiplegt. Parallelizes the bootstrap calculation, everything else is the same and credit goes the creators of original command.
+Parallel version of did_multiplegt. Parallelizes the bootstrap calculation, everything else is the same and credit goes to the creators of the original command.
 
 
 # Requirements
