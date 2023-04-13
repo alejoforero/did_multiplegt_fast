@@ -13,21 +13,17 @@ cap ado uninstall ftools
 
 net install ftools, from("https://raw.githubusercontent.com/sergiocorreia/ftools/master/src/")
 
+Check his website for more details on installation.
+http://scorreia.com/software/reghdfe/install.html
+
 Install parallel; don't install from SSC:
-
-
 cap ado uninstall parallel
 
 net install parallel, from(https://raw.github.com/gvegayon/parallel/stable/) replace
 
 mata mata mlib index
 
-
-Check his website for more details on installation.
-http://scorreia.com/software/reghdfe/install.html
-
-
-Then install directly in Stata
+# Installation
 
 net install did_multiplegt_fast, from("https://raw.githubusercontent.com/alejoforero89/did_multiplegt_fast/master/")
 
